@@ -1,0 +1,26 @@
+[
+  {
+    "tag": "input",
+    "name": "name",
+    "type": "text",
+    "placeholder": "Recipe name...",
+    "autocomplete": "nope",
+    "required": true
+  },
+  {
+    "tag": "textarea",
+    "name": "description",
+    "type": "text",
+    "placeholder": "Description...",
+    "autocomplete": "off",
+    "required": true
+  },
+  {
+    "tag": "input",
+    "name": "image",
+    "type": "url",
+    "placeholder": "http://",
+    "autocomplete": "off",
+    "required": false
+  }
+]

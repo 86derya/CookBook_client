@@ -1,0 +1,89 @@
+.recipe_container {
+  /* box-sizing: border-box; */
+  display: block;
+  position: relative;
+  margin: 10px auto 0;
+  padding: 10px;
+  background-color: rgb(109, 156, 148);
+}
+.recipe_image {
+  display: block;
+  margin: 0 auto 6px;
+  height: 200px;
+  width: auto;
+  border-radius: 5px;
+}
+.recipe_name {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.recipe_description {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.showPatchestsBtn {
+  display: block;
+  text-align: center;
+  padding: 4px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(110, 114, 114);
+  cursor: pointer;
+  outline: none;
+}
+.recipePatched_item {
+  display: block;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+.updateBtn {
+  position: absolute;
+  top: 10px;
+  padding: 4px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(110, 114, 114);
+  cursor: pointer;
+}
+
+.goBackBtn {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  position: fixed;
+  padding: 0;
+  top: 36vh;
+  left: 0px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-image: url('https://cdn3.iconfinder.com/data/icons/glyph/227/Button-Back-1-512.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  outline: none;
+  z-index: 100;
+}
+.goBackBtn:hover {
+  transform: scale(1.1);
+}
+.goBackBtn img {
+  display: block;
+  padding: 0;
+  height: 40px;
+}
+
+@media (min-width: 1200px) {
+  .recipe_container {
+    width: 60vw;
+    border-radius: 10px;
+  }
+  .goBackBtn {
+    top: 20vh;
+  }
+}
