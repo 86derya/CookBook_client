@@ -7,19 +7,31 @@ const UpdateRecipeItemView = () => (
     <h1 className={styles.homePageTitle}>Welcome On CookBook</h1>
     <a
       className={styles.link}
-      href="https://dederiacookbook.herokuapp.com/"
+      href="https://dederiacookbook.herokuapp.com"
       target="blank"
     >
       cookBook_client on Heroku
     </a>
-    <a className={styles.link} href="2" target="blank">
-      cookBook_client on Heroku
+    <a
+      className={styles.link}
+      href="https://dederiacookbookserver.herokuapp.com"
+      target="blank"
+    >
+      cookBook_server on Heroku
     </a>
-    <a className={styles.link} href="2" target="blank">
-      gitHub_server
+    <a
+      className={styles.link}
+      href="https://github.com/86derya/CookBook_client"
+      target="blank"
+    >
+      cookBook_client on GitHub
     </a>
-    <a className={styles.link} href="2" target="blank">
-      github_client
+    <a
+      className={styles.link}
+      href="https://github.com/86derya/CookBook_server"
+      target="blank"
+    >
+      cookBook_server on Github
     </a>
   </div>
 );
