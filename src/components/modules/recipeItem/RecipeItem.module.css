@@ -1,16 +1,21 @@
+html,
+body {
+  overflow-x: hidden;
+}
 .recipe_container {
-  /* box-sizing: border-box; */
   display: block;
   position: relative;
   margin: 10px auto 0;
   padding: 10px;
+  width: 90%;
   background-color: rgb(109, 156, 148);
+  border-radius: 10px;
 }
 .recipe_image {
   display: block;
   margin: 0 auto 6px;
-  height: 200px;
-  width: auto;
+  height: auto;
+  max-width: 70%;
   border-radius: 5px;
 }
 .recipe_name {
@@ -81,7 +86,6 @@
 @media (min-width: 1200px) {
   .recipe_container {
     width: 60vw;
-    border-radius: 10px;
   }
   .goBackBtn {
     top: 20vh;

@@ -200,7 +200,10 @@ class RecipeContainer extends Component {
               (currentRecipe.patches.length > 0 ? (
                 <ul className={styles.patches_list}>{recipePatch}</ul>
               ) : (
-                <p>No history</p>
+                <p>
+                  This is first revision that was created :{' '}
+                  {new Date(currentRecipe.createdAt).toLocaleString('uk-UA')}
+                </p>
               ))}
           </div>
           {isModalOpened ? (

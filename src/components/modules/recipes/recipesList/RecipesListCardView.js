@@ -40,8 +40,10 @@ const RecipesListCardView = ({
       {image ? recipeImg : defaultImg}
       {recipeName}
       {recipeDescr}
-      {cardCreatedAt}
-      {createdAt !== updatedAt ? cardUpdatedAt : null}
+      <div className={styles.recipe_card_dates}>
+        {cardCreatedAt}
+        {createdAt !== updatedAt ? cardUpdatedAt : null}
+      </div>
     </>
   );
 };

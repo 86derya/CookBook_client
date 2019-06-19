@@ -26,6 +26,9 @@
   width: 100%;
   font-size: 20px;
 }
+.addRecipe_form textarea {
+  min-height: 40vh;
+}
 
 .addRecipe_form_controls_container {
   display: flex;

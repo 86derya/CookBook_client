@@ -26,6 +26,7 @@
   max-height: 100%;
   background-color: rgb(116, 185, 180);
   overflow-y: auto;
+  border-radius: 10px;
 }
 .closeModalbutton {
   background: white;
